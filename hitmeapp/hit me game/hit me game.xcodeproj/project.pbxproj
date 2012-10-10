@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0C4D9CA16261085005034BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C4D9C916261085005034BC /* UIKit.framework */; };
+		F0C4D9CC16261085005034BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C4D9CB16261085005034BC /* Foundation.framework */; };
+		F0C4D9CE16261085005034BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C4D9CD16261085005034BC /* CoreGraphics.framework */; };
+		F0C4D9D416261085005034BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0C4D9D216261085005034BC /* InfoPlist.strings */; };
+		F0C4D9D616261085005034BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C4D9D516261085005034BC /* main.m */; };
+		F0C4D9DA16261085005034BC /* jpgAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C4D9D916261085005034BC /* jpgAppDelegate.m */; };
+		F0C4D9DD16261085005034BC /* jpgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C4D9DC16261085005034BC /* jpgViewController.m */; };
+		F0C4D9E016261085005034BC /* jpgViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C4D9DE16261085005034BC /* jpgViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0C4D9C516261085005034BC /* hit me game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hit me game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C4D9C916261085005034BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0C4D9CB16261085005034BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0C4D9CD16261085005034BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0C4D9D116261085005034BC /* hit me game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hit me game-Info.plist"; sourceTree = "<group>"; };
+		F0C4D9D316261085005034BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0C4D9D516261085005034BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0C4D9D716261085005034BC /* hit me game-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hit me game-Prefix.pch"; sourceTree = "<group>"; };
+		F0C4D9D816261085005034BC /* jpgAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jpgAppDelegate.h; sourceTree = "<group>"; };
+		F0C4D9D916261085005034BC /* jpgAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jpgAppDelegate.m; sourceTree = "<group>"; };
+		F0C4D9DB16261085005034BC /* jpgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jpgViewController.h; sourceTree = "<group>"; };
+		F0C4D9DC16261085005034BC /* jpgViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jpgViewController.m; sourceTree = "<group>"; };
+		F0C4D9DF16261085005034BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/jpgViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0C4D9C216261085005034BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C4D9CA16261085005034BC /* UIKit.framework in Frameworks */,
+				F0C4D9CC16261085005034BC /* Foundation.framework in Frameworks */,
+				F0C4D9CE16261085005034BC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0C4D9BA16261085005034BC = {
+			isa = PBXGroup;
+			children = (
+				F0C4D9CF16261085005034BC /* hit me game */,
+				F0C4D9C816261085005034BC /* Frameworks */,
+				F0C4D9C616261085005034BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0C4D9C616261085005034BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4D9C516261085005034BC /* hit me game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0C4D9C816261085005034BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4D9C916261085005034BC /* UIKit.framework */,
+				F0C4D9CB16261085005034BC /* Foundation.framework */,
+				F0C4D9CD16261085005034BC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0C4D9CF16261085005034BC /* hit me game */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4D9D816261085005034BC /* jpgAppDelegate.h */,
+				F0C4D9D916261085005034BC /* jpgAppDelegate.m */,
+				F0C4D9DB16261085005034BC /* jpgViewController.h */,
+				F0C4D9DC16261085005034BC /* jpgViewController.m */,
+				F0C4D9DE16261085005034BC /* jpgViewController.xib */,
+				F0C4D9D016261085005034BC /* Supporting Files */,
+			);
+			path = "hit me game";
+			sourceTree = "<group>";
+		};
+		F0C4D9D016261085005034BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4D9D116261085005034BC /* hit me game-Info.plist */,
+				F0C4D9D216261085005034BC /* InfoPlist.strings */,
+				F0C4D9D516261085005034BC /* main.m */,
+				F0C4D9D716261085005034BC /* hit me game-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0C4D9C416261085005034BC /* hit me game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C4D9E316261085005034BC /* Build configuration list for PBXNativeTarget "hit me game" */;
+			buildPhases = (
+				F0C4D9C116261085005034BC /* Sources */,
+				F0C4D9C216261085005034BC /* Frameworks */,
+				F0C4D9C316261085005034BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hit me game";
+			productName = "hit me game";
+			productReference = F0C4D9C516261085005034BC /* hit me game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0C4D9BC16261085005034BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = jpg;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = com.jpg;
+			};
+			buildConfigurationList = F0C4D9BF16261085005034BC /* Build configuration list for PBXProject "hit me game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0C4D9BA16261085005034BC;
+			productRefGroup = F0C4D9C616261085005034BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0C4D9C416261085005034BC /* hit me game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0C4D9C316261085005034BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C4D9D416261085005034BC /* InfoPlist.strings in Resources */,
+				F0C4D9E016261085005034BC /* jpgViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0C4D9C116261085005034BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C4D9D616261085005034BC /* main.m in Sources */,
+				F0C4D9DA16261085005034BC /* jpgAppDelegate.m in Sources */,
+				F0C4D9DD16261085005034BC /* jpgViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0C4D9D216261085005034BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0C4D9D316261085005034BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0C4D9DE16261085005034BC /* jpgViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0C4D9DF16261085005034BC /* en */,
+			);
+			name = jpgViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0C4D9E116261085005034BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0C4D9E216261085005034BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0C4D9E416261085005034BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hit me game/hit me game-Prefix.pch";
+				INFOPLIST_FILE = "hit me game/hit me game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0C4D9E516261085005034BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hit me game/hit me game-Prefix.pch";
+				INFOPLIST_FILE = "hit me game/hit me game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0C4D9BF16261085005034BC /* Build configuration list for PBXProject "hit me game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C4D9E116261085005034BC /* Debug */,
+				F0C4D9E216261085005034BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C4D9E316261085005034BC /* Build configuration list for PBXNativeTarget "hit me game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C4D9E416261085005034BC /* Debug */,
+				F0C4D9E516261085005034BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0C4D9BC16261085005034BC /* Project object */;
+}
