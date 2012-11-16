@@ -12,6 +12,8 @@
 
 @property (nonatomic, strong) IBOutlet UISlider * slider;
 @property (nonatomic, strong) IBOutlet UILabel * targetLabel;
+@property (nonatomic, strong) IBOutlet UILabel * scoreLabel;
+@property (nonatomic, strong) IBOutlet UILabel * roundLabel;
 
 - (IBAction)showAlert;
 
