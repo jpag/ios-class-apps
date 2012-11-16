@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface jpgViewController : UIViewController
+@interface jpgViewController : UIViewController;
+
+@property (nonatomic, strong) IBOutlet UISlider * slider;
+@property (nonatomic, strong) IBOutlet UILabel * targetLabel;
+
+- (IBAction)showAlert;
+
+- (IBAction)sliderMoved:(UISlider*)sender;
 
 @end
